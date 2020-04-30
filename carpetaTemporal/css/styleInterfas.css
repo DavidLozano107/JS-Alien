@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image:url(../Fondos/Fondo_Juego.jpg);
+	background: cover;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+
+input.boton{
+	border-radius: 10px;
+	border: none;
+	width: 430px;
+	height: 100px;
+	background: #ECF0F1;
+	color: #2C3E50;
+	font-size: 2.9rem;
+	font-family: "Endor";
+	position: absolute;
+	top: calc(68% - 50px);
+	left: calc(49% - 200px);
+	cursor: pointer;
+	text-shadow: 0px 1px 5px #fff;
+}
+
+input.boton:hover{
+	box-shadow: 0 0 20px #4f9;
+	transition: 1s ease all;
+	transform: scale(1.1);
+}
+
+
+
+.nubes{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.nubes img{
+	opacity: 0.4;
+	position: absolute;
+	bottom: 0;
+	max-width: 100%;
+	animation: animate calc(8s * var(--i)) linear infinite;
+}
+
+.musica{
+	opacity: 0;
+	margin-left: 180px;
+}
+
+input.boton{
+	color: #fff;
+	background: linear-gradient(#3dadbb,#2e8aa3,#195e7b);
+}
+
+.boton.active{
+	visibility: hidden;
+}
+
+@keyframes animate{
+	0%{
+		transform: translateX(-100%);
+	}
+
+	100%{
+		transform: translateX(100%);
+	}
+}
+
+
+/*----------Fondo 2 --------------------*/
+
+img.imagen2{
+	position: fixed;
+	visibility: hidden;	
+}
+
+img.imagen2.active{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	visibility: visible;
+}
