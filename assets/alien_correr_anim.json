@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "correr",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 11,
+            "frames": [
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0001"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0002"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0003"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0004"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0005"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0006"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0007"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0008"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0009"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0010"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0011"
+                },
+                {
+                    "key": "alien_correr",
+                    "frame": "alien_1_running0012"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "caminar",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0001"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0002"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0003"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0004"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0005"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0006"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0007"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0008"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0009"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0010"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0011"
+                },
+                {
+                    "key": "alien_caminar",
+                    "frame": "alien_1_walking0012"
+                }
+            ]
+        }
+    ]
+}

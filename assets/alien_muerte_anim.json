@@ -1,0 +1,48 @@
+{
+    "anims": [
+        {
+            "key": "muerte",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0001"
+                },
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0002"
+                },
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0003"
+                },
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0004"
+                },
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0005"
+                },
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0006"
+                },
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0007"
+                },
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0008"
+                },
+                {
+                    "key": "alien_muerte",
+                    "frame": "alien_1_dying0009"
+                }
+            ]
+        }
+    ]
+}
