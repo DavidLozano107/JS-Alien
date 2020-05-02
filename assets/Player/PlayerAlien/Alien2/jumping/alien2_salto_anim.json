@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "alien2_salto",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 9,
+            "frames": [
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0001"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0002"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0003"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0004"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0005"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0006"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0007"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0008"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0009"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0010"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0011"
+                },
+                {
+                    "key": "alien2_salto",
+                    "frame": "alien_2_jumping0012"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "agacharse",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 9,
+            "frames": [
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0001"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0002"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0003"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0004"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0005"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0006"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0007"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0008"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0009"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0010"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0011"
+                },
+                {
+                    "key": "alien_agachado",
+                    "frame": "alien_1_crouching0012"
+                }
+            ]
+        }
+    ]
+}
