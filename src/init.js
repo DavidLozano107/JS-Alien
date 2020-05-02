@@ -24,7 +24,7 @@ function preload() {
     this.load.image("alienOp", "./assets/Alien_3_Attacking0001.png");
 }
 function create() {
-    this.alienOp = this.physics.add.image(80, 100, "alienOp");
+    this.alienOp = this.physics.add.image(80, 100, "");
     this.alienOp.setScale(2);
     this.alienOp.flipX = false;
     this.alienOp.setOrigin(0.5);  
