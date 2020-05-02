@@ -1,0 +1,52 @@
+{
+    "anims": [
+        {
+            "key": "zombie1_dying",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "zombie1_dying",
+                    "frame": "1"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "2"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "3"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "4"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "5"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "6"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "7"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "8"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "10"
+                },
+                {
+                    "key": "zombie1_dying",
+                    "frame": "11"
+                }
+            ]
+        }
+    ]
+}
