@@ -5,9 +5,8 @@ class Bootloader extends Phaser.Scene {
     }
     
     preload() {
-       this.scene.load.video("videoInicio", "");
+        console.log("Se cargo el bootloader");
     }
-
 
 
 }

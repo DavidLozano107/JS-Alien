@@ -4,7 +4,7 @@ class Scene_play extends Phaser.Scene{
     }
 
     preload(){
-        console("La escena se cargo");
+        console.log("SE cargo la escena");
     }
 }
 
