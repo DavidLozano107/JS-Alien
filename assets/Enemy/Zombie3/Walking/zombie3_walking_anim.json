@@ -1,0 +1,56 @@
+{
+    "anims": [
+        {
+            "key": "zombie3_walking",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 11,
+            "frames": [
+                {
+                    "key": "zombie3_walking",
+                    "frame": "2"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "3"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "4"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "5"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "6"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "7"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "8"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "9"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "10"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "11"
+                },
+                {
+                    "key": "zombie3_walking",
+                    "frame": "12"
+                }
+            ]
+        }
+    ]
+}

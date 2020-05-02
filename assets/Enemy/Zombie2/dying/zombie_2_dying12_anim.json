@@ -1,0 +1,56 @@
+{
+    "anims": [
+        {
+            "key": "zombie_2_dying12_atlas",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 20,
+            "frames": [
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "2"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "3"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "4"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "5"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "6"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "7"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "8"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "9"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "10"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "11"
+                },
+                {
+                    "key": "zombie_2_dying12",
+                    "frame": "12"
+                }
+            ]
+        }
+    ]
+}

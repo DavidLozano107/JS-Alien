@@ -1,0 +1,56 @@
+{
+    "anims": [
+        {
+            "key": "zombie3_jummping",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "2"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "3"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "4"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "5"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "6"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "7"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "8"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "9"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "10"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "11"
+                },
+                {
+                    "key": "zombie3_jummping",
+                    "frame": "12"
+                }
+            ]
+        }
+    ]
+}

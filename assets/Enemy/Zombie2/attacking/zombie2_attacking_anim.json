@@ -1,0 +1,56 @@
+{
+    "anims": [
+        {
+            "key": "zombie2_attacking",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 9,
+            "frames": [
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "2"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "3"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "4"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "5"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "6"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "7"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "8"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "9"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "10"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "11"
+                },
+                {
+                    "key": "zombie2_attacking",
+                    "frame": "12"
+                }
+            ]
+        }
+    ]
+}

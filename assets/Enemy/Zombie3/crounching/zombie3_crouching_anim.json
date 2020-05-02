@@ -1,0 +1,56 @@
+{
+    "anims": [
+        {
+            "key": "zombie3_crouching",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "2"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "3"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "4"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "5"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "6"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "7"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "8"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "9"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "10"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "11"
+                },
+                {
+                    "key": "zombie3_crouching",
+                    "frame": "12"
+                }
+            ]
+        }
+    ]
+}

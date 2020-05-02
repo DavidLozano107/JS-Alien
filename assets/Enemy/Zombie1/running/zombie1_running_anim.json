@@ -1,0 +1,56 @@
+{
+    "anims": [
+        {
+            "key": "zombie1_running",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "zombie1_running",
+                    "frame": "1"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "2"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "3"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "4"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "5"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "6"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "7"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "8"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "9"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "10"
+                },
+                {
+                    "key": "zombie1_running",
+                    "frame": "11"
+                }
+            ]
+        }
+    ]
+}
