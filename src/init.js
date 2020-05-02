@@ -1,39 +1,17 @@
+import Bootloader from './bootloader.js';
+import Scene_play from './scenes/scene_play.js';
 const config = {
-    width: 320*2,
-    height: 180*2,
-    parent: "container",
-    type: Phaser.AUTO,
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    },
+    width: 1200,
+    height: 560,
+    parent: "contenedor",
     physics: {
         default: "arcade",
-        arcade: {
-            gravity: {
-                y: 500
-            }
-        }
-    }
+    },
+    scene: [
+        Bootloader,
+        Scene_play
+    ]
 }
 
-var game = new Phaser.Game(config);
+new Phaser.Game(config);
 
-function preload() {
-    this.load.image("alienOp", "./assets/Alien_3_Attacking0001.png");
-}
-function create() {
-    this.alienOp = this.physics.add.image(80, 100, "");
-    this.alienOp.setScale(2);
-    this.alienOp.flipX = false;
-    this.alienOp.setOrigin(0.5);  
-    // Fisicas
-    this.alienOp.setCollideWorldBounds(true);
-    this.alienOp.setBounce(0.3);
-    this.alienOp.setAcceleration(50, 0);
-
-}
-function update(time, delta) {
-    // this.alienOp.x++; 
-}
