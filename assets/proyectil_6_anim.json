@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "proyectil_6",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "proyectil_6",
+                    "frame": "zombie_projectile_300"
+                },
+                {
+                    "key": "proyectil_6",
+                    "frame": "zombie_projectile_301"
+                },
+                {
+                    "key": "proyectil_6",
+                    "frame": "zombie_projectile_302"
+                },
+                {
+                    "key": "proyectil_6",
+                    "frame": "zombie_projectile_303"
+                }
+            ]
+        }
+    ]
+}

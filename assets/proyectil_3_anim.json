@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "proyectil_3",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "proyectil_3",
+                    "frame": "alien_3_projectile0"
+                },
+                {
+                    "key": "proyectil_3",
+                    "frame": "alien_3_projectile1"
+                },
+                {
+                    "key": "proyectil_3",
+                    "frame": "alien_3_projectile2"
+                },
+                {
+                    "key": "proyectil_3",
+                    "frame": "alien_3_projectile3"
+                }
+            ]
+        }
+    ]
+}

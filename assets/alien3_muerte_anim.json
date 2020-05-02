@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "alien3_muerte",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0001"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0002"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0003"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0004"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0005"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0006"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0007"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0008"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying0009"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying00010"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying00011"
+                },
+                {
+                    "key": "alien3_muerte",
+                    "frame": "alien_3_dying00012"
+                }
+            ]
+        }
+    ]
+}
