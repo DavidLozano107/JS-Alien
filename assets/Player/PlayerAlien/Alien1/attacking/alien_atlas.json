@@ -1,0 +1,164 @@
+{
+    "frames": [
+        {
+            "filename": "alien_1_attacking0001",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 9,
+                "y": 9
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0002",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 155,
+                "y": 9
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0003",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 9,
+                "y": 155
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0004",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 155,
+                "y": 155
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0005",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 301,
+                "y": 9
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0006",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 301,
+                "y": 155
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0007",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 9,
+                "y": 301
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0008",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 155,
+                "y": 301
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0009",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 301,
+                "y": 301
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0010",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 447,
+                "y": 9
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0011",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 447,
+                "y": 155
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "alien_1_attacking0012",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 447,
+                "y": 301
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

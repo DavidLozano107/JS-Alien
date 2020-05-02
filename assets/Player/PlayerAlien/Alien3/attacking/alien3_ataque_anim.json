@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "alien3_ataque",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0001"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0002"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0003"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0004"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0005"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0006"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0007"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0008"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0009"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0010"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0011"
+                },
+                {
+                    "key": "alien3_ataque",
+                    "frame": "alien_3_attacking0012"
+                }
+            ]
+        }
+    ]
+}
