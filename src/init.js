@@ -5,7 +5,11 @@ const config = {
     height: 560,
     parent: "contenedor",
     physics: {
-        default: "arcade",
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 300 },
+            debug: false
+        }
     },
     scene: [
         Bootloader,
