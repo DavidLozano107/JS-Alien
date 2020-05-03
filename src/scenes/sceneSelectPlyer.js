@@ -1,4 +1,6 @@
-import Worldl1 from './world1.js';
+import WorldlGollum from './World1/world1_Gollum.js';
+import WorldlHoggle from './World1/world1_Hoggle.js';
+import WorldSnoopy from './World1/world1_Snoopy.js';
 class SceneSelectPlayer extends Phaser.Scene{
     constructor(){
         super({key: "SceneSelectPlayer", active:true});
@@ -10,13 +12,10 @@ class SceneSelectPlayer extends Phaser.Scene{
         //Aliens Imagenes
             // Alien 1
             this.load.spritesheet("aline1","./assets/Player/PlayerAlien/Alien1/attacking/alien.png",{frameWidth:148, frameHeight:158});
-
             // Alien 2
             this.load.spritesheet("aline2","./assets/Player/PlayerAlien/Alien2/attacking/alien2_ataque.png",{frameWidth:148, frameHeight:158});
-
             // Alien 3
             this.load.spritesheet("aline3","./assets/Player/PlayerAlien/Alien3/attacking/alien3_ataque.png",{frameWidth:148, frameHeight:158});
-
             //Botones de Seleccion
             //Boton 1 para seleccionar el personaje 1
             this.load.image("Boton1Gollum", "./assets/Boton/botonGollum1.png");
@@ -48,14 +47,32 @@ class SceneSelectPlayer extends Phaser.Scene{
 
         //Añadir Botones para la seleccion de personajes
             //Boton 1
-        this.BotonGollum = this.add.image(340,370,'Boton1Gollum');
-        this.BotonGollum.setScale(0.3);
+        let btnGollum = this.add.image(340,370,'Boton1Gollum').setScale(0.3);
+        btnGollum.setInteractive();
+        btnGollum.on("pointerup", () => {
+            alert("Escogiste a Gollum");
+            this.scene.add('Worldl1.js',new Worldl1);
+        })
+
+        
           //Boton 2
-          this.BotonSnoopy = this.add.image(610,370,'Boton2Snoopy');
-          this.BotonSnoopy.setScale(0.3);
+        let btnSnoopy = this.add.image(610,370,'Boton2Snoopy').setScale(0.3);
+        btnSnoopy.setInteractive();
+        btnSnoopy.on("pointerup", () => {
+            alert("Escogiste a Snoopy");
+            this.scene.add('Worldl1.js',new Worldl1);
+        })
+        
             //Boton 3
-        this.BotonHoggle = this.add.image(880,370,'Boton3Hoggle');
-        this.BotonHoggle.setScale(0.3);
+        let btnHoggle = this.add.image(880,370,'Boton3Hoggle').setScale(0.3);
+        btnHoggle.setInteractive();
+        btnHoggle.on("pointerup", () => {
+            alert("Escogiste a Hoggle");
+            this.scene.add('Worldl1.js',new Worldl1);
+        })
+        
+
+        
 
         //Seleccion de personaje
 
@@ -75,11 +92,11 @@ class SceneSelectPlayer extends Phaser.Scene{
         */ 
 
 //---------------------------------------------------------------------------------------------------------------------
-        let btnPlay = this.add.image(this.sys.game.config.width/2, 500, "btn").setScale(1) ;
+        /*let btnPlay = this.add.image(this.sys.game.config.width/2, 500, "btn").setScale(1) ;
         btnPlay.setInteractive();
         btnPlay.on("pointerup", () => {
             this.scene.add('Worldl1.js',new Worldl1);
-        })
+        })*/
     }
 }
 

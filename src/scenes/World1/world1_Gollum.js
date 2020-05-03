@@ -1,7 +1,7 @@
 var platforms;
-class Worldl1 extends Phaser.Scene{
+class WorldlGollum extends Phaser.Scene{
     constructor(){
-        super({key: "Worldl1",active:true});
+        super({key: "WorldlGollum",active:true});
     }
     preload(){
         //this is the background 
@@ -44,4 +44,4 @@ class Worldl1 extends Phaser.Scene{
 
 }
 
-export default Worldl1;
+export default WorldlGollum;
