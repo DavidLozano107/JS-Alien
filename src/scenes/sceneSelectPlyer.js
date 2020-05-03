@@ -1,6 +1,10 @@
 import WorldlGollum from './world1_Gollum.js';
 import WorldlHoggle from './world1_Hoggle.js';
+<<<<<<< HEAD
 import WorldSnoopy from './world1_Snoopy.js';
+=======
+import WorldlSnoopy from './world1_Snoopy.js';
+>>>>>>> master
 class SceneSelectPlayer extends Phaser.Scene{
     constructor(){
         super({key: "SceneSelectPlayer", active:true});
