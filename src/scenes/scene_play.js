@@ -3,9 +3,10 @@ class Scene_play extends Phaser.Scene{
         super({key: "Scene_play"});
     }
 
-    preload(){
-        console.log("SE cargo la escena");
+    create(){
+        this.add.image(this.sys.game.config.width/2,  this.sys.game.config.height/2, "comenzarJuego");
     }
+
 }
 
 
