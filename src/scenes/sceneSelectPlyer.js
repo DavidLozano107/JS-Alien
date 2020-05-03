@@ -1,6 +1,6 @@
-import WorldlGollum from './World1/world1_Gollum.js';
-import WorldlHoggle from './World1/world1_Hoggle.js';
-import WorldSnoopy from './World1/world1_Snoopy.js';
+import WorldlGollum from './world1_Gollum.js';
+import WorldlHoggle from './world1_Hoggle.js';
+import WorldlSnoopy from './world1_Snoopy.js';
 class SceneSelectPlayer extends Phaser.Scene{
     constructor(){
         super({key: "SceneSelectPlayer", active:true});
@@ -51,7 +51,7 @@ class SceneSelectPlayer extends Phaser.Scene{
         btnGollum.setInteractive();
         btnGollum.on("pointerup", () => {
             alert("Escogiste a Gollum");
-            this.scene.add('Worldl1.js',new Worldl1);
+            this.scene.add('Worldl1_Gollum.js',new WorldlGollum);
         })
 
         
@@ -60,7 +60,7 @@ class SceneSelectPlayer extends Phaser.Scene{
         btnSnoopy.setInteractive();
         btnSnoopy.on("pointerup", () => {
             alert("Escogiste a Snoopy");
-            this.scene.add('Worldl1.js',new Worldl1);
+            this.scene.add('Worldl1_Snoopy.js',new WorldlSnoopy);
         })
         
             //Boton 3
@@ -68,7 +68,7 @@ class SceneSelectPlayer extends Phaser.Scene{
         btnHoggle.setInteractive();
         btnHoggle.on("pointerup", () => {
             alert("Escogiste a Hoggle");
-            this.scene.add('Worldl1.js',new Worldl1);
+            this.scene.add('Worldl_Hoggle.js',new WorldlHoggle);
         })
         
 
