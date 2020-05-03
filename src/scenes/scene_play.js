@@ -8,7 +8,7 @@ class Scene_play extends Phaser.Scene{
     create(){
         this.add.image(this.sys.game.config.width/2,  this.sys.game.config.height/2, "comenzarJuego");
         this.add.image(this.sys.game.config.width/2,  this.sys.game.config.height/2, "comenzarJuego");
-       let btn = this.add.image(this.sys.game.config.width/2,  400, "btn").setScale(1.5) ;
+        let btn = this.add.image(this.sys.game.config.width/2,  400, "btn").setScale(1.5) ;
 
         btn.setInteractive();
 

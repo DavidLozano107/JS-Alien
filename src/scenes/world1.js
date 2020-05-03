@@ -1,15 +1,13 @@
-//import SceneSelectPlyer from './sceneSelectPlyer.js';
-
-class Scene_play extends Phaser.Scene{
+class Worldl1 extends Phaser.Scene{
     constructor(){
-        super({key: "Scene_play"});
+        super({key: "Worldl1",active:true});
     }
 
     create(){
-        
+        alert("Helllo");
     }
 
 }
 
 
-export default Scene_play;
+export default Worldl1;

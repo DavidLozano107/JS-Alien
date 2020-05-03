@@ -1,3 +1,4 @@
+import Worldl1 from './world1.js';
 class SceneSelectPlayer extends Phaser.Scene{
     constructor(){
         super({key: "SceneSelectPlayer", active:true});
@@ -33,7 +34,7 @@ class SceneSelectPlayer extends Phaser.Scene{
         let btnPlay = this.add.image(this.sys.game.config.width/2,  500, "btn").setScale(1) ;
         btnPlay.setInteractive();
         btnPlay.on("pointerup", () => {
-            this.scene.add('SceneSelectPlyer.js', new SceneSelectPlyer);
+            this.scene.add('Worldl1.js',new Worldl1);
         })
 
     }
