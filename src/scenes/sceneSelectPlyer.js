@@ -46,30 +46,30 @@ class SceneSelectPlayer extends Phaser.Scene{
         this.Player3 = this.add.sprite(910,this.sys.game.config.height/2,'aline3');
 
         //Añadir Botones para la seleccion de personajes
+
             //Boton 1
         let btnGollum = this.add.image(340,370,'Boton1Gollum').setScale(0.3);
         btnGollum.setInteractive();
         btnGollum.on("pointerup", () => {
             alert("Escogiste a Gollum");
-            this.scene.add('Worldl1_Gollum.js',new WorldlGollum);
-        })
-
+            this.scene.add('worldl1_Gollum.js',new WorldlGollum);
+        });
         
           //Boton 2
         let btnSnoopy = this.add.image(610,370,'Boton2Snoopy').setScale(0.3);
         btnSnoopy.setInteractive();
         btnSnoopy.on("pointerup", () => {
             alert("Escogiste a Snoopy");
-            this.scene.add('Worldl1_Snoopy.js',new WorldlSnoopy);
-        })
+            this.scene.add('worldl1_Snoopy.js',new WorldlSnoopy);
+        });
         
             //Boton 3
         let btnHoggle = this.add.image(880,370,'Boton3Hoggle').setScale(0.3);
         btnHoggle.setInteractive();
         btnHoggle.on("pointerup", () => {
             alert("Escogiste a Hoggle");
-            this.scene.add('Worldl_Hoggle.js',new WorldlHoggle);
-        })
+            this.scene.add('world1_Hoggle.js',new WorldlHoggle);
+        });
         
 
         
