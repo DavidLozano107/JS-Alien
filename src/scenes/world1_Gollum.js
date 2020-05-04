@@ -1,4 +1,5 @@
-var platforms;
+var cursors;
+import palas from '../gameObjects/palas.js'
 class WorldlGollum extends Phaser.Scene{
     constructor(){
         super({key: "WorldlGollum",active:true});
@@ -9,38 +10,80 @@ class WorldlGollum extends Phaser.Scene{
         //This is the floor    
         this.load.image("ground","./assets/Fondos/Bg/PNG/3_game_background/layers/9.png");
         //This is the Player
-        this.load.spritesheet("alien1","./assets/Player/PlayerAlien/Alien1/attacking/alien.png",{ frameWidth: 148, frameHeight: 158 });
+        this.load.atlas("alienGollum","./assets/Player/PlayerAlien/Alien1/walking/alien_caminar.png","./assets/Player/PlayerAlien/Alien1/walking/alien_caminar_atlas.json" );
     }    
     create(){
         alert("dd");
         //Background
         this.add.image(this.sys.game.config.width/2,  this.sys.game.config.height/2, "bgWorld1");
         //Platform
-        platforms = this.physics.add.staticGroup();
-        platforms.create(this.sys.game.config.width/2,(this.sys.game.config.height/2)-30,"ground");
+        this.platforms = new palas(this,this.sys.game.config.width/2,(this.sys.game.config.height/2)-30,"ground");
         //Player
-
-        this.playerG = this.physics.add.sprite(100, 120, 'alien1');
+        this.playerG = this.physics.add.sprite(100, 120, 'alienGollum');
         this.playerG.setBounce(0.2);
         this.playerG.setCollideWorldBounds(true);
-
-
+        this.playerG.body.setGravityY(300)
+        
+        
+//---------------------------------------------------Animaciones-----------------------------------------------
+        //Right
         this.anims.create({
-            key: 'select',
-            frames: this.anims.generateFrameNumbers('alien1',{
-                frames:[0,1,2,3,4,5,6,7,8,9,10,11]
+            key:'alien_1_walking',
+            frames: this.anims.generateFrameNames('alienGollum',{
+                prefix:'alien_1_walking000_',
+                suffix:'.png',
+                start:1,
+               end:12
             }),
             repeat: -1,
             frameRate:10
         });
-        //Alien1
-      //  this.player.anims.play('select');
+        //left
+        this.anims.create({
+            key:'alien_1_walking_left',
+            frames: this.anims.generateFrameNames('alienGollum',{
+                prefix:'alien_1_walking000_',
+                suffix:'.png',
+                start:1,
+               end:12
+            }),
+            repeat: -1,
+            frameRate:10
+        });
+       
 
-    
+       cursors = this.input.keyboard.createCursorKeys();
 
-
-
+      this.physics.add.collider(this.playerG, this.platforms);
 }
+//Up
+    update(){
+
+    // if(cursors.left.isDown){
+    //     this.playerG.setVelocityX(-160);
+    //     this.playerG.flipX=true;
+    //     this.playerG.anims.play('alien_1_walking_left',true);
+    //  }else{
+    //     this.playerG.setVelocityX(0);
+    //     this.playerG.anims.play('alien_1_walking_left',false);
+    //  }
+    if(cursors.right.isDown){
+        this.playerG.flipX=false;
+        this.playerG.setVelocityX(160);
+        this.playerG.anims.play('alien_1_walking',true);
+        }else{
+            this.playerG.setVelocityX(0);
+            this.playerG.anims.play('alien_1_walking',false);
+        }
+    // else{
+    //     this.playerG.setVelocityX(0);
+    //     //player.anims.play('turn');
+    // }
+    // if (cursors.up.isDown && this.playerG.body.touching.down){
+    //     //player.setVelocityY(-330);
+    // }
+}
+
 
 }
 
