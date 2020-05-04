@@ -1,7 +1,7 @@
 {
     "frames": [
         {
-            "filename": "alien_3_walking0001",
+            "filename": "alien_3_walking000_1.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -14,7 +14,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0002",
+            "filename": "alien_3_walking000_2.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -27,7 +27,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0003",
+            "filename": "alien_3_walking000_3png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -40,7 +40,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0004",
+            "filename": "alien_3_walking000_4.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -53,7 +53,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0005",
+            "filename": "alien_3_walking000_5.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -66,7 +66,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0006",
+            "filename": "alien_3_walking000_6.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -79,7 +79,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0007",
+            "filename": "alien_3_walking000_7.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -92,7 +92,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0008",
+            "filename": "alien_3_walking000_8.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -105,7 +105,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0009",
+            "filename": "alien_3_walking000_9.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -118,7 +118,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0010",
+            "filename": "alien_3_walking000_10.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -131,7 +131,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0011",
+            "filename": "alien_3_walking000_11.png",
             "frame": {
                 "w": 128,
                 "h": 128,
@@ -144,7 +144,7 @@
             }
         },
         {
-            "filename": "alien_3_walking0012",
+            "filename": "alien_3_walking000_12.png",
             "frame": {
                 "w": 128,
                 "h": 128,
