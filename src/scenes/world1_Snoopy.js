@@ -17,7 +17,6 @@ class WorldlSnoopy extends Phaser.Scene{
         this.load.image("movimiento2", "./assets/Fondos/Bg/PNG/3_game_background/layers/5.png");
     }    
     create(){
-        alert("dd");
         // Carga el Sonido
         let sonido = this.sound.add("musica",{loop:true});
         sonido.play()

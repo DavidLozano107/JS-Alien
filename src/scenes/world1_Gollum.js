@@ -13,7 +13,6 @@ class WorldlGollum extends Phaser.Scene{
         this.load.atlas("alienGollum","./assets/Player/PlayerAlien/Alien1/walking/alien_caminar.png","./assets/Player/PlayerAlien/Alien1/walking/alien_caminar_atlas.json" );
     }    
     create(){
-        alert("dd");
         //Background
         this.add.image(this.sys.game.config.width/2,  this.sys.game.config.height/2, "bgWorld1");
         //Platform

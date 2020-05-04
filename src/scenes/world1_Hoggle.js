@@ -10,7 +10,9 @@ class WorldlHoggle extends Phaser.Scene{
         //This is the floor    
         this.load.image("ground","./assets/Fondos/Bg/PNG/3_game_background/layers/9.png");
         //This is the Player
-        this.load.atlas("alienGollum","./assets/Player/PlayerAlien/Alien3/walking/alien3_caminar.png","./assets/Player/PlayerAlien/Alien3/walking/alien3_caminar_atlas.json" );    }    
+        this.load.atlas("alienGollum","./assets/Player/PlayerAlien/Alien3/walking/alien3_caminar.png","./assets/Player/PlayerAlien/Alien3/walking/alien3_caminar_atlas.json" );
+        
+        }    
         create(){
             alert("dd");
             //Background
