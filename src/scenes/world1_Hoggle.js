@@ -15,6 +15,8 @@ class WorldlHoggle extends Phaser.Scene{
         }    
         create(){
             alert("dd");
+            //Musica
+            this.playerG.body.setGravityY(300)
             //Background
             this.add.image(this.sys.game.config.width/2,  this.sys.game.config.height/2, "bgWorld1");
             //Platform
@@ -23,7 +25,7 @@ class WorldlHoggle extends Phaser.Scene{
             this.playerG = this.physics.add.sprite(100, 120, 'alienGollum');
             this.playerG.setBounce(0.2);
             this.playerG.setCollideWorldBounds(true);
-            this.playerG.body.setGravityY(300)
+            this.playerG.body.setGravityY(300);
             
     
             this.anims.create({

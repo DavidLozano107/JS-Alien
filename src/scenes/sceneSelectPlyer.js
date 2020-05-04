@@ -23,6 +23,8 @@ class SceneSelectPlayer extends Phaser.Scene{
             this.load.image("Boton2Snoopy", "./assets/Boton/botonSnoopy1.png");
             //Boton 3 para seleccionar el personaje 3
             this.load.image("Boton3Hoggle", "./assets/Boton/botonHoggle.png");
+            //Musicc
+            this.load.audio("musica", "./assets/videos/inicioJuego.mp3");
     }
 
     create(){
@@ -35,7 +37,9 @@ class SceneSelectPlayer extends Phaser.Scene{
        let style = {font: "40px Endor", fill:"#fff", align:"center"};
        let mostarTexto = this.add.text(300, 30, texto, style);
        //------------------
-
+// Carga el Sonido
+let sonido = this.sound.add("musica",{loop:true});
+sonido.play()
 
        // Añadir a los Aliens 
             //Alien 1
